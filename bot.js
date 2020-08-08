@@ -29,70 +29,6 @@ message.channel.send('#credits')
   }
 });
 
-client2.on('message', message => {
-  if(message.content === 'd'){
-message.channel.send('#daily')
-  }
-  if(message.content === 'c'){
-message.channel.send('#credits')
-  }
-  if(message.content.startsWith("s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
-
-client3.on('message', message => {
-  if(message.content === 'd'){
-message.channel.send('#daily')
-  }
-  if(message.content === 'c'){
-message.channel.send('#credits')
-  }
-  if(message.content.startsWith("s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
-
-client4.on('message', message => {
-  if (message.content === 'd') {
-message.channel.send('#daily')
-  }
-  if(message.content === 'c'){
-message.channel.send('#credits')
-  }
-  if(message.content.startsWith("s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
-
-client5.on('message', message => {
-  if(message.content === 'd'){
-message.channel.send('#daily')
-  }
-  if(message.content === 'c'){
-message.channel.send('#credits')
-  }
-  if(message.content.startsWith("s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
-
-client6.on('message', message => {
-  if(message.content === 'd'){
-message.channel.send('#daily')
-  }
-  if(message.content === 'c'){
-message.channel.send('#credits')
-  }
-  if(message.content.startsWith("s")) {
-    var text = message.content.split(' ').slice(1).join(' ');
-     message.channel.send(text);
-  }
-});
 
 
 client.on('ready', async() => {
@@ -104,47 +40,4 @@ var channel = "741795238569574443";
 })
 
 
-client2.on('ready', async() => {
-var server = "741732063283249212"; 
-var channel = "741795238569574443";
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('زبي فاجر')
-    },50);
-})
-
-
-client3.on('ready', async() => {
-var server = "741732063283249212"; 
-var channel = "741795238569574443";
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('زبي فاجر')
-    },50);
-})
-
-
-client4.on('ready', async() => {
-var server = "741732063283249212"; 
-var channel = "741795238569574443";
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('زبي فاجر')
-    },50);
-})
-
-
-client5.on('ready', async() => {
-var server = "741732063283249212"; 
-var channel = "741795238569574443";
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('زبي فاجر')
-    },50);
-})
-
-
-client6.on('ready', async() => {
-var server = "741732063283249212"; 
-var channel = "741795238569574443";
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('زبي فاجر')
-    },50);
-})
 
