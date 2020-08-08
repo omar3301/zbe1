@@ -33,7 +33,7 @@ client.on('ready', async() => {
 var server = "741732063283249212"; 
 var channel = "741795238569574443";
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send(`**????bt3m el mnga **[ " ${x} " ]`)
+    client.guilds.get(server).channels.get(channel).send('**????bt3m el mnga **[ " ${x} " ]')
     },50);
 })
 
