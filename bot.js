@@ -97,7 +97,7 @@ message.channel.send('#credits')
 
 client.on('ready', async() => {
 var server = "741732063283249212"; 
-var channel = "741732063283249216";
+var channel = "741795238569574443";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('كسم اسامه')
     },50);
@@ -106,7 +106,7 @@ var channel = "741732063283249216";
 
 client2.on('ready', async() => {
 var server = "741732063283249212"; 
-var channel = "741732063283249216";
+var channel = "741795238569574443";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('كسم اسامه')
     },50);
@@ -115,7 +115,7 @@ var channel = "741732063283249216";
 
 client3.on('ready', async() => {
 var server = "741732063283249212"; 
-var channel = "741732063283249216";
+var channel = "741795238569574443";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('كسم اسامه')
     },50);
@@ -124,7 +124,7 @@ var channel = "741732063283249216";
 
 client4.on('ready', async() => {
 var server = "741732063283249212"; 
-var channel = "741732063283249216";
+var channel = "741795238569574443";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('كسم اسامه')
     },50);
@@ -133,7 +133,7 @@ var channel = "741732063283249216";
 
 client5.on('ready', async() => {
 var server = "741732063283249212"; 
-var channel = "741732063283249216";
+var channel = "741795238569574443";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('كسم اسامه')
     },50);
@@ -142,7 +142,7 @@ var channel = "741732063283249216";
 
 client6.on('ready', async() => {
 var server = "741732063283249212"; 
-var channel = "741732063283249216";
+var channel = "741795238569574443";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('كسم اسامه')
     },50);
